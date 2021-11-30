@@ -12,3 +12,5 @@ CtrlPointsMatching.m 交互的方式进行控制点配准与配准区域的裁�
 hjy.m 交互方式配准,输出变换矩阵t
 
 batchtrans.m 根据变换矩阵t对图像进行变换,输出变换后的配准区域
+
+removeblack.m 根据光学图像，删除文件夹中全黑的图像，并删除sar与红外文件夹中对应的图像
